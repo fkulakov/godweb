@@ -47,7 +47,7 @@ class Times
     }
 
     /**
-     * @return string|null
+     * @return string[]|array
      * @throws \Exception
      */
     public function getPrevIntervals(): array
