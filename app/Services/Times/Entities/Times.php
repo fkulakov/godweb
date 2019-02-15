@@ -12,31 +12,6 @@ class Times
     private $timestamps;
 
     /**
-     * @var \DateTime
-     */
-    private $prevStartDateTime;
-
-    /**
-     * @var \DateTime
-     */
-    private $prevEndDateTime;
-
-    /**
-     * @var \DateTime
-     */
-    private $currentDateTime;
-
-    /**
-     * @var \DateInterval
-     */
-    private $prevDateInterval;
-
-    /**
-     * @var \DateInterval
-     */
-    private $currentDateInterval;
-
-    /**
      * Times constructor.
      * @param array $timestamps
      * @throws \Exception
